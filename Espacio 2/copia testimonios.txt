@@ -1,0 +1,52 @@
+<section class="section_container stories_container" id="stories">
+    <p class="section_subheader">TESTIMONIOS</p>
+    <h2 class="section_header">Experiencias de éxito</h2>
+    <div class="stories_grid">
+        <div class="stories_card">
+            <div class="stories_content">
+            <input id="ch" type="checkbox">
+                <!--<span><i class="ri-double-quotes-l"></i></span>-->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, vitae quis aut eos est ea exercitationem...
+                    <div class="mas_content">
+                    quam atque, repellendus inventore doloremque veniam nostrum laborum neque quidem corporis modi mollitia sunt. Incidunt ipsam vero aliquam optio nam quae totam eligendi obcaecati, porro, eius quos officiis quidem tenetur tempora possimus consequatur velit!</p>
+                <label for="ch">mostrar menos</label>
+            </div>
+            <label for="ch">mostrar más</label>
+            </div>
+          
+            <div class="stories_author">
+                <img src="images/stories-2.jpg" alt="author">
+                <div class="stories_author_details">
+                    <h4>Victoria V.</h4>
+                    <h6>Monitora</h6>
+                </div>
+            </div>
+        </div>
+        <div class="stories_card">
+            <div class="stories_content">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quibusdam tenetur iste reiciendis aliquid deserunt animi consequuntur dolorum facere veniam!</p>
+            </div>
+            <div class="stories_author">
+                <img src="images/stories-3.jpg" alt="author">
+                <div class="stories_author_details">
+                    <h4>Ana Pascual Lodo</h4>
+                    <h6>Alumna</h6>
+                </div>
+            </div>
+        </div>
+        <div class="stories_card">
+            <div class="stories_content">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quibusdam tenetur iste reiciendis aliquid deserunt animi consequuntur dolorum facere veniam!</p>
+            </div>
+            <div class="stories_author">
+                <img src="images/stories-1.jpg" alt="author">
+                <div class="stories_author_details">
+                    <h4>Marcelino Jopeto</h4>
+                    <h6>Alumno</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>

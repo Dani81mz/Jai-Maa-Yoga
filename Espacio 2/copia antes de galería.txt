@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Jai Maa Yoga</title>
+</head>
+<body>
+    <nav>
+        <div class="nav_logo">
+            <img src="images/logo.png" alt="logo">
+            <span>Jai Maa Yoga</span>
+        </div>
+        <ul class="nav_links">
+            <li class="link"><a href="#home">Menú Principal</a></li>
+            <li class="link"><a href="#classes">Clases</a></li>
+            <li class="link"><a href="#membership">Me apunto</a></li>
+            <li class="link"><a href="#stories">Testimonios</a></li>
+            <li class="link"><a href="#posts">Blog</a></li>
+            <li class="link"><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+        <div class="section_container header_container">
+            <div class="header_content">
+                <h1>Yoga Efectivo</h1>
+                <h2>Practica Yoga hoy para un mejor día mañana</h2>
+                <button class="btn">Una sesión de prueba gratis</button>
+            </div>
+            <div class="header_image">
+                <img src="images/header.jpg" alt="header" />
+            </div>
+        </div>
+   </header>
+
+   <section class="section_container why_container">
+    <div class="why_image">
+        <img src="images/why.jpg" alt="why yoga" />
+    </div>
+    <div class="why_content">
+        <div class="why_content">
+            <h2 class="section_header">Por qué deberías practicar Yoga</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, assumenda autem aspernatur ea voluptas delectus minima esse aliquam mollitia sunt.</p>
+            <ul>
+                <li>
+                    <span><i class="ri-checkbox-circle-fill"></i></span>
+                    La práctica del Yoga aumenta el poder mental
+                </li>
+                <li>
+                    <span><i class="ri-checkbox-circle-fill"></i></span>
+                    La práctica del Yoga te ayuda a respirar mejor
+                </li>
+                <li>
+                    <span><i class="ri-checkbox-circle-fill"></i></span>
+                    La práctica del Yoga da sentido al día a día
+                </li>
+                <li>
+                    <span><i class="ri-checkbox-circle-fill"></i></span>
+                    La práctica del Yoga mejora tu fuerza
+                </li>
+                <li>
+                    <span><i class="ri-checkbox-circle-fill"></i></span>
+                    La práctica del Yoga te ayuda a concentrarte
+                </li>
+            </ul>
+
+        </div>
+    </div>
+ </section>
+
+ <section class="hero" id="hero">
+    <div class="section_container hero_container">
+        <div class="hero_card">
+            <span><img src="images/icon-1.png" alt="hero" /></span>
+            <h4>Un Modo de Vida Sano</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae placeat repellendus, odio ratione sint assumenda.
+            </p>
+        </div>
+
+                <div class="hero_card">
+            <span><img src="images/icon-2.png" alt="hero" /></span>
+            <h4>Equilibrio cuerpo/mente</h4>
+            <p>
+                A través de posturas y respiración consciente, la práctica del Yoga ayuda a tener un cuerpo flexible, fuerte, a la vez que se cultiva la paz interior.
+            </p>
+        </div>
+
+        <div class="hero_card">
+            <span><img src="images/icon-3.png" alt="hero" /></span>
+            <h4>La Meditación</h4>
+            <p>
+                Descubre la serenidad interior cultivando una profunda conexión con el momento presente.
+            </p>
+        </div>
+
+        <div class="hero_card">
+            <span><img src="images/icon-4.png" alt="hero" /></span>
+            <h4>Cúidate</h4>
+            <p>
+                Aprnde a escuchar tu cuerpo consiguiendo un estado de profunda quietud mental. 
+            </p>
+        </div>
+    </div>
+ </section>
+
+ <section class="section_container classes_container" id="classes">
+    <p class="section_subheader">CLASES DE YOGA</p>
+    <h2 class="section_header">Elije tu nivel y concéntrate </h2>
+    <div class="classes_grid">
+        <div class="classes_image">
+            <img src="images/classes-1.jpg" alt="classes">
+            <div class="classes_content">
+                <button class="btn classes_btn">Ver Más</button>
+            </div>
+        </div>
+        <div class="classes_image">
+            <img src="images/classes-2.jpg" alt="classes">
+            <div class="classes_content">
+                <button class="btn classes_btn">Ver Más</button>
+            </div>
+        </div>
+        <div class="classes_image">
+            <img src="images/classes-3.jpg" alt="classes">
+            <div class="classes_content">
+                <button class="btn classes_btn">Ver Más</button>
+            </div>
+        </div>
+        <div class="classes_image">
+            <img src="images/classes-4.jpg" alt="classes">
+            <div class="classes_content">
+                <button class="btn classes_btn">Ver Más</button>
+            </div>
+        </div>
+        <div class="classes_image">
+            <img src="images/classes-5.jpg" alt="classes">
+            <div class="classes_content">
+                <button class="btn classes_btn">Ver Más</button>
+            </div>
+        </div>
+        <div class="classes_image">
+            <img src="images/classes-6.jpg" alt="classes">
+        </div>
+    </div>
+ </section>
+<!--Fin-->
+ <section class="membership" id="membership">
+    <div class="section_container membership_container">
+        <p class="section_subheader">TARIFAS</p>
+        <h2 class="section_header">PACKS ALUMNOS</h2>
+        <div class="membership_grid">
+            <div class="membership_card">
+                <h4>Tarifa Año</h4>
+                <h2><sup>€</sup>1000</h2>
+                <h3>Para 1 Año</h3>
+                <h4>DISFRUTA DE TODAS LAS VENTAJAS</h4>
+                <p>Acceso ilimitado</p>
+                <p>Monitor de grupo</p>
+                <p>Acceso a retiros</p>
+                <p>Orientación física</p>
+                <button class="btn membership_btn">EMPIEZA YA</button>
+            </div>
+            <div class="membership_card">
+                <h4>Tarifa Mensual</h4>
+                <h2><sup>€</sup>3000</h2>
+                <h3>Para 1 Año</h3>
+                <h4>DISFRUTA DE TODAS LAS VENTAJAS</h4>
+                <p>Acceso ilimitado</p>
+                <p>Monitor de grupo</p>
+                <p>Monitor de grupo</p>
+                <p>Orientación física</p>
+                <button class="btn membership_btn">EMPIEZA YA</button>
+            </div>
+            <div class="membership_card">
+                <h4>Tarifa Semanal</h4>
+                <h2><sup>€</sup>90</h2>
+                <h3>Para 1 Semana</h3>
+                <h4>DISFRUTA DE TODAS LAS VENTAJAS</h4>
+                <p>Monitor de grupo</p>
+                <p>Orientación física</p>
+                <p>Orientación física</p>
+                <p>Orientación física</p>
+                <button class="btn membership_btn">EMPIEZA YA</button>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <section class="section_container stories_container" id="stories">
+    <p class="section_subheader">TESTIMONIOS</p>
+    <h2 class="section_header">Experiencias de éxito</h2>
+    <div class="stories_grid">
+        <div class="stories_card">
+            <div class="stories_content">
+            <input id="ch" type="checkbox">
+                <!--<span><i class="ri-double-quotes-l"></i></span>-->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, vitae quis aut eos est ea exercitationem...
+                    <div class="mas_content">
+                    quam atque, repellendus inventore doloremque veniam nostrum laborum neque quidem corporis modi mollitia sunt. Incidunt ipsam vero aliquam optio nam quae totam eligendi obcaecati, porro, eius quos officiis quidem tenetur tempora possimus consequatur velit!</p>
+                <label for="ch">mostrar menos</label>
+            </div>
+            <label for="ch">mostrar más</label>
+            </div>
+          
+            <div class="stories_author">
+                <img src="images/stories-2.jpg" alt="author">
+                <div class="stories_author_details">
+                    <h4>Victoria V.</h4>
+                    <h6>Monitora</h6>
+                </div>
+            </div>
+        </div>
+        <div class="stories_card">
+            <div class="stories_content">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quibusdam tenetur iste reiciendis aliquid deserunt animi consequuntur dolorum facere veniam!</p>
+            </div>
+            <div class="stories_author">
+                <img src="images/stories-3.jpg" alt="author">
+                <div class="stories_author_details">
+                    <h4>Ana Pascual Lodo</h4>
+                    <h6>Alumna</h6>
+                </div>
+            </div>
+        </div>
+        <div class="stories_card">
+            <div class="stories_content">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quibusdam tenetur iste reiciendis aliquid deserunt animi consequuntur dolorum facere veniam!</p>
+            </div>
+            <div class="stories_author">
+                <img src="images/stories-1.jpg" alt="author">
+                <div class="stories_author_details">
+                    <h4>Marcelino Jopeto</h4>
+                    <h6>Alumno</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+<section class="banner">
+    <div class="section_container banner_container">
+        <div class="banner_card">
+            <h4>50</h4>
+            <p>Clientes satisfechos</p>
+        </div>
+        <div class="banner_card">
+            <h4>25</h4>
+            <p>Retiros</p>
+        </div>
+        <div class="banner_card">
+            <h4>15</h4>
+            <p>Años de experiencia</p>
+        </div>
+        <div class="banner_card">
+            <h4>50</h4>
+            <p>Clientes satisfechos</p>
+        </div>
+    </div>
+</section>
+
+<section class="posts" id="posts">
+    <div class="section_container posts_container">
+        <p class="section_subheader">Blog</p>
+        <h2 class="section_header">Publicaciones Recientes</h2>
+        <div class="posts_grid">
+            <div class="posts_card">
+                <img src="images/posts-1.jpg" alt="post" />
+                <div class="posts_content">
+                    <div class="posts_date">
+                        <span>31</span>
+                        <div>
+                            <p>2024</p>
+                            <p>Diciembre</p>
+                        </div>
+                    </div>
+                    <h4>Desbloqueando la Paz Interior</h4>
+                    <p>
+                        Profundizar en la práctica nos ayuda a cultivar nuestra paz interior, reduce el stress, y auyda en el bienestar general.
+                    </p>
+                </div>
+            </div>
+            <div class="posts_card">
+                <figure class="animate-box">
+                    <video src="Vídeos/Casa Baco yt.mp4" controls width="250"></video>
+                </figure>     
+                <div class="posts_content">
+                    <div class="posts_date">
+                        <span>31</span>
+                        <div>
+                            <p>2025</p>
+                            <p>Febrero</p>
+                        </div>
+                    </div>
+                    <h4>Cómo materializamos</h4>
+                    <p>
+                        Profundizar en la práctica nos ayuda a cultivar nuestra paz interior, reduce el stress, y auyda en el bienestar general.
+                    </p>
+                </div>
+            </div>
+            <div class="posts_card">
+                <img src="images/posts-3.jpg" alt="post" />
+                <div class="posts_content">
+                    <div class="posts_date">
+                        <span>31</span>
+                        <div>
+                            <p>2025</p>
+                            <p>Marzo</p>
+                        </div>
+                    </div>
+                    <h4>El Yoga a través de los siglos</h4>
+                    <p>
+                        Profundizar en la práctica nos ayuda a cultivar nuestra paz interior, reduce el stress, y auyda en el bienestar general.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_container photos_container">
+    <p class="section_subheader">GALERÍA</p>
+    <h2 class="section_header">Ver Ultimas Fotos</h2>
+    <div class="photos_grid">
+        <div class="photos_card">
+            <img src="images/photos-1.jpg" alt="photo" />
+        </div>
+        <div class="photos_card">
+            <img src="images/photos-2.jpg" alt="photo" />
+        </div>
+        <div class="photos_card">
+            <img src="images/photos-3.jpg" alt="photo" />
+        </div>
+        <div class="photos_card">
+            <img src="images/photos-4.jpg" alt="photo" />
+        </div>
+    </div>
+</section>
+
+<footer class="footer" id="contact">
+    <div class="section_container footer_container">
+        <div class="footer_col">
+            <div class="footer_logo"><a href="">Jai Maa Yoga</a></div>
+        </div>
+        <div class="footer_col">
+            <p>Calle Arriba 7, Mazagón 21130, Huelva</p>
+        </div>
+        <div class="footer_col">
+            <div class="footer_socials">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="section_container footer_bar">
+        Copyright © 2023 Jai Maa Yoga. Todos los derechos reservados.
+    </div>
+</footer>
+
+   <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Jai Maa Yoga</title>
+</head>
+<body>
+    <nav>
+        <div class="nav_logo">
+            <img src="images/logo.png" alt="logo">
+            <span>Jai Maa Yoga</span>
+        </div>
+        <ul class="nav_links">
+            <li class="link"><a href="index.html">Menú Principal</a></li>
+            <li class="link"><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+        <div class="section_container header_container">
+            <div class="header_content">
+                <h1>Mi Blog</h1>
+                <h2>Reflexiones y algunas píldoras para quién le sirva</h2>
+            </div>
+            <div class="header_image">
+                <img src="images/header.jpg" alt="header" />
+            </div>
+        </div>
+   </header>
+
+   <div class="kontainer">
+    <div class="row">
+        <div class="blogheader">
+            <h1>Our Blog</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, ea.</p>
+        </div>
+        <div class="content">
+            <div class="card">
+                <img src="images/classes-2.jpg">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores explicabo odit iure facilis nostrum assumenda!
+                <span id="dots">....</span>
+                <div id="more">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quaerat ea fugiat animi voluptatum culpa!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit quaerat, ducimus minus maiores quis harum!</p>
+            </div>
+           </p>
+           <button onclick="readmore()" id="btn">Read More</button>
+         </div>
+        </div>
+        <div class="content">
+            <div class="card">
+                <img src="images/classes-2.jpg">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores explicabo odit iure facilis nostrum assumenda!
+                <span id="dots">....</span>
+                <div id="more">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quaerat ea fugiat animi voluptatum culpa!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit quaerat, ducimus minus maiores quis harum!</p>
+            </div>
+           </p>
+           <button onclick="readmore()" id="btn">Read More</button>
+         </div>
+        </div>
+    </div>
+  </div>
+
+   
+           
+        
+   <script>
+    function readmore() {
+        var dots = document.getElementById("dots");
+        var moretext = document.getElementById("more");
+        var btn = document.getElementById("btn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btn.innerHTML = "Read More";
+            moretext.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btn.innerHTML = "Read Less";
+            moretext.style.display = "inline";
+        }
+    }
+</script>

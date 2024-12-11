@@ -1,0 +1,88 @@
+<!--EMPIEZA BLOG-->
+<!--<div class="blog-container">
+<div class="card">
+    <figure class="animate-box">
+        <video src="Vídeos/Casa Baco yt.mp4"  controls width="250"></video>
+    </figure>   
+    <div class="card-body">
+        <h2>Forest</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sed.
+            <span id="dots">....</span>
+            <div id="more">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit possimus laborum minus, vitae velit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto sint ad, nesciunt eum voluptates sapiente.</p>
+            </div>
+        </p>
+        <button onclick="readmore()" id="btn">Read More</button>
+    </div>
+</div>
+<div class="card">
+    <img src="images/posts-1.jpg" alt="">
+     <h1>Read More Read Less</h1> 
+    <div class="card-body">
+        <h2>Forest</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sed.
+            <span id="dots">....</span>
+            <div id="more">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit possimus laborum minus, vitae velit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto sint ad, nesciunt eum voluptates sapiente.</p>
+            </div>
+        </p>
+        <button onclick="readmore()" id="btn">Read More</button>
+    </div>
+</div>
+<div class="card">
+    <img src="images/posts-1.jpg" alt="">
+     <h1>Read More Read Less</h1> 
+    <div class="card-body">
+        <h2>Forest</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sed.
+            <span id="dots">....</span>
+            <div id="more">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit possimus laborum minus, vitae velit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto sint ad, nesciunt eum voluptates sapiente.</p>
+            </div>
+        </p>
+        <button onclick="readmore()" id="btn">Read More</button>
+    </div>
+</div>
+<div class="card">
+    
+    <img src="images/photos-1.jpg" alt="">
+     <h1>Readmoreless</h1> 
+    <div class="card-body">
+        <h2>Forest</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sed.
+            <span id="dots">....</span>
+            <div id="more">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit possimus laborum minus, vitae velit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto sint ad, nesciunt eum voluptates sapiente.</p>
+            </div>
+        </p>
+        <button onclick="readmore()" id="btn">Read More</button>
+    </div>
+</div>-->
+<script>
+    function readmore() {
+        var dots = document.getElementById("dots");
+        var moretext = document.getElementById("more");
+        var btn = document.getElementById("btn");
+
+        if (dots.style.display === "none") {
+            dots.style.display ="inline";
+            btn.innerHTML = "Read More";
+            moretext.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btn.innerHTML = "Read Less";
+            moretext.style.display = "inline";
+        }
+    }
+</script>
+</div>
+
+
+
+
+
+<!--TERMINA BLOG-->
