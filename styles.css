@@ -29,6 +29,24 @@
     color: var(--text-dark);
 }
 
+.btn{
+    color: rgb(65, 145, 161);
+    border-radius: 10px;
+    height: 20px;
+}
+
+.btn:hover{
+    background-color: white;
+}
+
+.btn a:hover{
+    background-color: white;
+}
+
+.btn a:hover{
+    color: #84ddb3;
+}
+
 
 
 .home{
@@ -412,13 +430,15 @@ header::before {
 
 .membership_grid {
     margin-top: 4rem;
-    display: grid;
+    display: inline;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
 .membership_card{
     padding: 2rem;
+    margin: auto;
+    margin-top: 15px;
     text-align: center;
     background-color: var(--white);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
@@ -458,12 +478,13 @@ header::before {
     padding: 1rem 1.5rem;
     outline: none;
     border: none;
-    font-size: 1rem;
+    font-size: .8rem;
     color: var(--white);
     background-color: var(--primary-color);
     border-radius: 5rem;
     cursor: pointer;
 }
+
 
 .stories_grid{
     margin-top: 4rem;
@@ -993,6 +1014,27 @@ header::before {
     .icono-menu img{
         position: fixed;
     }
+
+    .sidebar{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 150px;
+        background-color: white;
+        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+        list-style: none;
+        text-decoration: none;
+        align-items: center;
+        justify-content: flex-start;
+        display: block;
+    }
+
+    .menu-button{
+        display: block;
+        position: absolute;
+    }
 }
 
 /*WRAPPER*/
@@ -1148,7 +1190,7 @@ header::before {
     }
 
     .menu-button {
-        display: block;
+        display: flex;
         position: fixed;
     }
 }
